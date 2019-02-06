@@ -1,0 +1,145 @@
+
+body {
+	background: url(img/1.jpg) 30% 20% #fafafa no-repeat;
+	background-size: 25%;
+}
+.container {
+	width: 1000px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding-top: 20px;
+}
+.photo {
+	padding-top: 150px;
+	margin-right: 30px;
+}
+.promo_title {
+	font-family: Apple Chancery;
+}
+.promo_container {
+	width: 300px;
+}
+.promo {
+	min-height: 600px;
+	width: 300px;
+	background: #ffffff;
+	text-align: center;
+	padding: 20px 30px;
+	margin-top: 40px;
+	margin-left: 630px;
+	border: solid 1px #e6e6e6;
+
+
+}
+.promo_desc {
+	color: #999999;
+	font-size: 20px;
+	text-wrap: wrap;
+	font-family: arial;
+}
+a {
+	text-decoration: none;
+}
+
+.promo_facebook {
+	padding: 10px 40px;
+	border-radius: 5px; 
+	color: white;
+	background: /*url(sm_5a9794da1b10e.png)*/ #3195f3 no-repeat 50% 50%;
+	font-family: arial;
+}
+.brake {
+	width: 110px;
+	margin-top: 23px;
+}
+.or {
+	display: flex;
+	height: 1px;
+}
+.ili {
+	color: #999999;
+	font-family: arial;
+}
+.data {
+	margin-top: 50px;
+
+}
+.input {
+	width: 250px;
+	padding: 10px 15px;
+	border: 1px solid #e6e6e6;
+	border-radius: 5px;
+	margin-top: 10px;
+	background: #fafafa;
+}
+.sign_up {
+	padding: 10px 40px;
+	border-radius: 5px; 
+	color: white;
+	background: #3195f3 no-repeat 50% 50%;
+	font-family: arial;
+	width: 280px;
+	margin-top: 20px;
+	font-size: 16px;
+}
+.cookie {
+	font-size: 16px;
+	margin-top: 20px;
+}
+.account {
+	height: 100px;
+	width: 360px;
+	background: #ffffff;
+	align-items: flex-end;
+	margin-left: 630px;
+	border: solid 1px #e6e6e6;
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: arial;
+}
+.vhod {
+	margin-left: 10px;
+	color: #3b9af4;
+}
+.apps_desc {
+	margin-top: 20px;
+	margin-left: 730px;
+}
+.apps {
+	margin-top: 10px;
+	width: 360px;
+	margin-left: 630px;
+	display: flex;
+	justify-content: center;
+}
+.ios {
+	height: 40px;
+	width: 150px;
+	background: url(img/bfba6d0fd6bd.png) no-repeat;
+	background-size: contain; 
+}
+.android {
+	height: 40px;
+	width: 150px;
+	background: url(img/4c70948c09f3.png) no-repeat;
+	background-size: contain; 
+}
+.footer {
+	display: flex;
+	margin-top: 20px;
+	justify-content: space-between;
+}
+.footer_link {
+	color: #00346b;
+	font-family: arial;
+	font-size: 14px;
+}
+
+
+
+
+
+
