@@ -1,0 +1,92 @@
+
+* {
+	margin: 0 auto;
+}
+body{
+	background-color: pink;
+}
+.header{
+	background-color: black;
+	color: white;
+	padding: 10px 20px;
+}
+.content{
+	font-size: 32px;
+	margin-left: 20%;
+	margin-top: 80px;
+}
+.search{
+	margin-left: 20%;
+	margin-top: 20px;
+}
+#text{
+	width: 400px; 
+	height: 20px;
+	border: 1px solid #dbdbdb;
+	border-radius: 3px;
+	padding-left: 10px;
+}
+.click{
+	height: 26px;
+	width: 35px;
+	border: 1px solid;
+	border-radius: 3px;
+	background-color: #3379b7;
+	color: white;
+	font-size: 10px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	margin-left: 10px;
+	padding-top: 5px; 
+}
+.click:hover {
+    background: pink;
+    color: #24292d;
+    border: 1px solid #24292d;
+}
+.task{
+	margin-left: 20%;
+	margin-top: 20px;
+	height: 45px;
+    max-height: 100px;
+    background-color: rgb(241, 240, 234);
+    border-radius: 5px;
+}
+.check {
+  float: left;
+  padding: 12px 8px;
+}
+
+input[type="checkbox"] {
+  width: 21px; 
+  height: 21px; 
+}
+
+.delete {
+  float: right;
+  padding: 10px;
+}
+
+input[type="image"] {
+  width: 23px; 
+  height: 23px;
+}
+
+input[type="image"]:hover {
+  width: 26px; 
+  height: 26px;
+}
+
+.task p {
+  float: left;
+  padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
