@@ -3,7 +3,9 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { MainComponent } from './components/main/main.component';
+import { MainComponent } from './main/main.component';
+import { HttpClientModule } from '@angular/common/http';
+import { ProviderService } from './shared/services/provider.service';
 
 @NgModule({
   declarations: [
@@ -12,9 +14,12 @@ import { MainComponent } from './components/main/main.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [
+    ProviderService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
